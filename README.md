@@ -14,3 +14,7 @@ sudo apt install gcc git make -y
 ```
 sudo apt install cmake git libgit2-dev clang libncurses5-dev libncursesw5-dev zlib1g-dev pkg-config libssl-dev llvm cargo
 ```
+## Install Rust 
+```
+curl https://sh.rustup.rs -sSf | sh; source $HOME/.cargo/env)
+```
