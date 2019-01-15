@@ -9,6 +9,12 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install gcc git make -y
 ```
+Attention, only gcc-6 is supported on cuda. 
+
+```
+sudo apt-get install gcc-6 g++-6 -y && \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
+```
 
 ## Install packages
 ```
