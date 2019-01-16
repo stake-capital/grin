@@ -24,3 +24,6 @@ sudo apt install cmake git libgit2-dev clang libncurses5-dev libncursesw5-dev zl
 ```
 curl https://sh.rustup.rs -sSf | sh; source $HOME/.cargo/env)
 ```
+
+## How to mine
+https://github.com/mimblewimble/docs/wiki/How-to-mine-Grin
